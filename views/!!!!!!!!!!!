@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smack3School</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">Smack3School</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-button">
+          &#9776;
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>Welcome to Smack3School</h1>
+        <p>Learn the latest in technology with our expert instructors.</p>
+      </section>
+      <section class="features">
+        <div class="feature">
+          <h2>Online Courses</h2>
+          <p>Learn from the comfort of your own home with our online courses.</p>
+        </div>
+        <div class="feature">
+          <h2>Expert Instructors</h2>
+          <p>Our instructors are industry experts with years of experience.</p>
+        </div>
+        <div class="feature">
+          <h2>Flexible Scheduling</h2>
+          <p>We offer flexible scheduling options to fit your busy life.</p>
+        </div>
+      </section>
+      <section class="cta">
+        <h2>Ready to Learn?</h2>
+        <p>Join Smack3School today and start your journey to a better future.</p>
+        <button>Sign Up Now</button>
+      </section>
+    </main>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
+

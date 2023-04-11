@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>My Website</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Welcome to My Website</h1>
+          <p>Learn the latest technologies with us</p>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <h2>Our Services</h2>
+          <div class="row">
+            <% for(let i=0; i<services.length; i++) { %>
+            <div class="col">
+              <h3><%= services[i].title %></h3>
+              <p><%= services[i].description %></p>
+            </div>
+            <% } %>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; My Website 2023</p>
+    </footer>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
+
